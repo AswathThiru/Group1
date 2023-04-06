@@ -1,0 +1,41 @@
+.bgimage{
+    background-image: url(../Assets/Axis.jpg);
+    height: 675px;
+    width: 79%;
+    margin-top: 35px;
+    background-repeat: no-repeat;
+}
+.login{
+    width: 35%;
+    margin-left: 32%;
+    margin-top: 18%;
+    opacity: .8;
+}
+.input{
+    width: 75%;
+    border-top: 0; border-left: 0; border-right: 0;
+}
+.labels{
+ color: #861f41;
+}
+.btn {
+    width: 30%;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    margin-top: 10px;
+   }
+   .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btn-1 {
+    background-image: linear-gradient(to right, #861f41 0%, #861f41 51%, #ffffff 100%);
+  }
+

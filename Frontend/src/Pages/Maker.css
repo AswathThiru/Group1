@@ -1,0 +1,129 @@
+.uploadinput{
+    border-radius: 10px;
+    background-color: rgb(234, 228, 228);
+    position: relative;
+    width: 95%;
+    padding: 4px;
+    margin-left: 20px;
+}
+.uploadbtn{
+    position: absolute;
+    margin-left: -64.3%;
+    width: 123px;
+    padding: 10px;
+    margin-top: -5px;
+    border-radius: 12px;
+    border: 1px solid #861f41;
+    color: white;
+    background-color: #861f41;
+}
+.label{
+    color: #a4224d;
+}
+.texts{
+    width: 78%;
+    padding: 3px;
+    margin-top: 5px;
+}
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 16px;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+  }
+  .toggle-switch:before, .toggle-switch:after {
+    content: "";
+  }
+  .toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: left 0.25s;
+  }
+  .toggle:hover .toggle-switch:before {
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  }
+  .toggle-checkbox:checked + .toggle-switch {
+    background: #861f41;
+  }
+  .toggle-checkbox:checked + .toggle-switch:before {
+    left: 30px;
+  }
+  
+  .toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .toggle-label {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+  }
+  .bg-color{
+    background-color:rgb(254, 248, 241);
+  }
+  .line{
+    border-right: 2px solid rgb(132, 130, 130);
+  }
+  .hrline{
+    /* color: #3b3b3b; */
+    height: 2px;
+    background-color:#000000;
+  }
+/* for checker page */
+.docclick{
+      border: 0;
+      color: rgb(17, 112, 255);
+      background:#ffffff00;
+  }
+  .text{
+    color: #a4224d;
+    font-weight: 500;
+  }
+  .btndel{
+    width: 15%;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 0.5px solid #a4224d;
+  }
+  .btndel:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btndel-1 {
+    background-image: linear-gradient(to right, #861f41 0%, #861f41 51%, #ffffff 100%);
+  }
+  .scroll{
+    height: 370px;
+    overflow: auto;
+  }
+  .scrol{
+    height: 200px;
+    overflow: auto;
+  }

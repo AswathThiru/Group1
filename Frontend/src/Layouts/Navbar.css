@@ -1,0 +1,62 @@
+.logo{
+    background-color: #861f41;
+    box-shadow: 0 1px 5px #ababab;
+    padding: 19px; 
+    position: relative;
+}
+
+.curve{
+    background-color: white;
+    position: absolute;
+    margin-top: 24px; 
+    margin-left: 25%;
+}
+.imgs{
+    margin-left: 9%;
+}
+/* .bell{
+   margin-left: ;    
+} */
+
+.btn-3 {
+    width: 14%;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-color: #ffffff;
+   }
+   .btn-3:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btn-3 {
+    background-image: linear-gradient(to right, #0ba6ff 0%, #0ba6ff 51%, #ffffff 100%);
+  }
+  .btn-2 {
+    width: 14%;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-color: #ffffff;
+   }
+   .btn-2:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .btn-2 {
+    background-image: linear-gradient(to right, #fd2121 0%, #f90303 51%, #ffffff 100%);
+  }

@@ -1,0 +1,57 @@
+.sidebar{
+  background-color: #861f41;
+  color: white;
+  height: 86vh;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.icons{
+    font-size: 25px;
+    margin-top: px;
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    color: white;
+    gap: 20px;
+    padding: 15px 10px;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    border-right: 4px solid transparent;
+}
+a{
+    text-decoration: none;
+}
+.link:hover{
+    border-right: 4px solid white;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    background: #994f68;
+}
+.main-container{
+    display: flex;
+}
+.icon{
+    font-size: 20px;
+}
+.br{
+    font-size: 13px;
+    margin-top: -10px;
+}
+.folder{
+    width: 100px;
+    height: 80px;
+    color: white;
+    margin-left: 15vh;
+    margin-top: 22vh;
+}
+.alogo{
+    height: 23px;
+    width: 25px;
+    cursor: pointer;
+}
+.routes{
+    margin-top: 10px;
+}
